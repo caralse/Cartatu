@@ -2,7 +2,7 @@ package com.syndria.gfx;
 
 public class Animation {
 
-    private Image[] frames;
+    private final Image[] frames;
     private final int nFrames;
     private int frame = 0;
     private double[] framesDurations;

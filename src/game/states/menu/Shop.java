@@ -2,7 +2,6 @@ package game.states.menu;
 
 import com.syndria.state.State;
 import com.syndria.ui.*;
-import game.Palette;
 import game.entities.Button;
 import game.entities.User;
 

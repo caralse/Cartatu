@@ -3,9 +3,9 @@ package com.syndria.time;
 import com.syndria.math.Vector;
 
 public class Tween2D {
-    private Vector startV;
+    private final Vector startV;
     private Vector endV;
-    private double duration;
+    private final double duration;
     private boolean isComplete;
     private double elapsedTime = 0d;
     private Vector vector;
