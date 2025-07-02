@@ -1,7 +1,5 @@
 package com.syndria.math;
 
-import java.awt.*;
-
 public class Vector {
     private double x;
     private double y;

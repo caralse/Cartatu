@@ -1,9 +1,7 @@
 package game.states.menu;
 
 import com.syndria.Syndria;
-import com.syndria.gfx.Image;
 import com.syndria.state.State;
-import com.syndria.state.StateManager;
 import com.syndria.ui.Alignment;
 import com.syndria.ui.Picture;
 
@@ -11,8 +9,8 @@ import java.awt.event.KeyEvent;
 
 public class PushBiggerCard extends State {
 
-    private Picture card;
-    private State state;
+    private final Picture card;
+    private final State state;
 
     public PushBiggerCard(String path, State state) {
         card = new Picture(path);
