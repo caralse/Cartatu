@@ -1,12 +1,10 @@
 package com.syndria.ui;
 
-import jdk.jfr.Percentage;
-
 public class Spacing {
-    private int top;
-    private int bottom;
-    private int left;
-    private int right;
+    private final int top;
+    private final int bottom;
+    private final int left;
+    private final int right;
 
     public Spacing(int top, int bottom, int left, int right) {
         this.top = top;
