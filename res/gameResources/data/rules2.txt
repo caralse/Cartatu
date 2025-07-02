@@ -1,0 +1,34 @@
+Si pescano due carte dal proprio mazzo ogni turno. Si possono pescare
+fino a 5 carte prima di dover passare il turno.
+Il giocatore che ha il punteggio più alto infligge danno all'altro
+in base alla differenza tra i due punteggi.
+Tuttavia, un punteggio superiore a 21 fa perdere vita al giocatore.
+
+Le carte ACE sono multivalore. Si può scegliere il valore preferito.
+
+La zona sottostante alle carte con punteggio è dedicata
+alle carte BOOST, carte speciali che possono alterare l'andamento
+del match tramite effetti.
+
+Una carta BOOST viene scartata se pescata mentre ne sono presenti
+5 nel proprio lato.
+
+Terminare le carte comporta la perdita di 20 HP.
+
+Per vincere bisogna avere almeno 1 HP e portare quelli del dealer a zero.
+--break--
+Si può comporre il proprio mazzo, che deve contenere un minimo di 20 carte,
+nella sezione DECK.
+Clickando su una carta tra quelle possedute la si aggiunge al mazzo,
+clickando su una carta presente nel mazzo, la si rimuove.
+Si possono aggiungere al massimo 4 copie della stessa carta nel mazzo.
+
+Si possono consultare le carte possedute e le info su di esse nel cartario.
+Nel cartario, premendo "spazio" si può vedere una versione zoomata della carta.
+
+Sconfiggere un dealer sblocca la possibilità di affrontare quello successivo,
+ogni dealer rilascia una ricompensa diversa quando viene battuto.
+
+In totale ci sono 6 dealer da affrontare.
+
+Nello shop è possibile comprare pacchetti di carte.

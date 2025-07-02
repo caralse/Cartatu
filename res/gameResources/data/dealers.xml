@@ -1,0 +1,30 @@
+<dealers>
+    <dealer level="-1">
+        <deck>test</deck>
+        <reward>500</reward>
+    </dealer>
+    <dealer level="1">
+        <deck>standard</deck>
+        <reward>50</reward>
+    </dealer>
+    <dealer level="2">
+        <deck>ace</deck>
+        <reward>100</reward>
+    </dealer>
+    <dealer level="3">
+        <deck>ace2</deck>
+        <reward>150</reward>
+    </dealer>
+    <dealer level="4">
+        <deck>boost</deck>
+        <reward>250</reward>
+    </dealer>
+    <dealer level="5">
+        <deck>boost2</deck>
+        <reward>300</reward>
+    </dealer>
+    <dealer level="6">
+        <deck>boost3</deck>
+        <reward>400</reward>
+    </dealer>
+</dealers>

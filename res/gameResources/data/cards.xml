@@ -1,0 +1,263 @@
+<cards>
+    <card name="ace1">
+        <title>istella</title>
+        <values>
+            <value>11</value>
+            <value>1</value>
+        </values>
+        <type>ace</type>
+        <path>ace1.png</path>
+    </card>
+    <card name="ace2">
+        <title>bronzetto</title>
+        <values>
+            <value>11</value>
+            <value>1</value>
+        </values>
+        <type>ace</type>
+        <path>ace2.png</path>
+    </card>
+    <card name="ace3">
+        <title>gigante</title>
+        <values>
+            <value>11</value>
+            <value>1</value>
+        </values>
+        <type>ace</type>
+        <path>ace3.png</path>
+    </card>
+    <card name="ace4">
+        <title>nuraghe</title>
+        <values>
+            <value>11</value>
+            <value>1</value>
+        </values>
+        <type>ace</type>
+        <path>ace4.png</path>
+    </card>
+    <card name="two">
+        <title>due</title>
+        <values>
+            <value>2</value>
+        </values>
+        <path>2.png</path>
+    </card>
+    <card name="three">
+        <title>tre</title>
+        <values>
+            <value>3</value>
+        </values>
+        <path>3.png</path>
+    </card>
+    <card name="four">
+        <title>quattro</title>
+        <values>
+            <value>4</value>
+        </values>
+        <path>4.png</path>
+    </card>
+    <card name="five">
+        <title>cinque</title>
+        <values>
+            <value>5</value>
+        </values>
+        <path>5.png</path>
+    </card>
+    <card name="six">
+        <title>sei</title>
+        <values>
+            <value>6</value>
+        </values>
+        <path>6.png</path>
+    </card>
+    <card name="seven">
+        <title>sette</title>
+        <values>
+            <value>7</value>
+        </values>
+        <path>7.png</path>
+    </card>
+    <card name="eight">
+        <title>otto</title>
+        <values>
+            <value>8</value>
+        </values>
+        <path>8.png</path>
+    </card>
+    <card name="nine">
+        <title>nove</title>
+        <values>
+            <value>9</value>
+        </values>
+        <path>9.png</path>
+    </card>
+    <card name="componidori">
+        <title>Su Componidori</title>
+        <values>
+            <value>10</value>
+        </values>
+        <path>sucomponidori.png</path>
+    </card>
+    <card name="segundu">
+        <title>Su Segundu</title>
+        <values>
+            <value>10</value>
+        </values>
+        <path>segundu.png</path>
+    </card>
+    <card name="eleonora">
+        <title>Eleonora d'Arborea</title>
+        <values>
+            <value>10</value>
+        </values>
+        <path>eleonora.png</path>
+    </card>
+
+    <card name="grane" rare="true">
+        <title>Tsunami</title>
+        <values>
+            <value>11</value>
+            <value>1</value>
+            <value>5</value>
+        </values>
+        <type>ace</type>
+        <path>grane.png</path>
+    </card>
+    <card name="carlo" rare="true">
+        <title>Il Creatore</title>
+        <values>
+            <value>11</value>
+            <value>10</value>
+            <value>5</value>
+            <value>3</value>
+        </values>
+        <type>ace</type>
+        <path>carlo.png</path>
+    </card>
+    <card name="ema" rare="true">
+        <title>Emma</title>
+        <values>
+            <value>9</value>
+            <value>7</value>
+            <value>2</value>
+        </values>
+        <type>ace</type>
+        <path>ema.png</path>
+    </card>
+    <card name="ale" rare="true">
+        <title>Vocale</title>
+        <values>
+            <value>13</value>
+            <value>0</value>
+            <value>3</value>
+        </values>
+        <type>ace</type>
+        <path>ale.png</path>
+    </card>
+    <card name="fede" rare="true">
+        <title>Stop, Dimentica</title>
+        <values>
+            <value>12</value>
+            <value>2</value>
+            <value>4</value>
+        </values>
+        <type>ace</type>
+        <path>fede.png</path>
+    </card>
+    <card name="simo" rare="true">
+        <title>In Chill</title>
+        <values>
+            <value>5</value>
+            <value>6</value>
+            <value>7</value>
+        </values>
+        <type>ace</type>
+        <path>simo.png</path>
+    </card>
+    <card name="franziska" rare="true">
+        <title>Hermanita</title>
+        <values>
+            <value>10</value>
+            <value>11</value>
+            <value>16</value>
+            <value>18</value>
+        </values>
+        <type>ace</type>
+        <path>franziska.png</path>
+    </card>
+    <card name="pane" rare="true">
+        <title>Il Maggiordomo</title>
+        <values>
+            <value>-2</value>
+            <value>2</value>
+            <value>3</value>
+            <value>4</value>
+        </values>
+        <type>ace</type>
+        <path>pane.png</path>
+    </card>
+
+    <card name="ape" rare="true" oneshot="false">
+        <type>boost</type>
+        <title>Aperitivo Fresh</title>
+        <desc>Recupera 5 HP^ogni turno.</desc>
+        <path>ape.png</path>
+        <priority>2</priority>
+    </card>
+    <card name="ziska" rare="true" oneshot="false">
+        <type>boost</type>
+        <title>Inversione</title>
+        <desc>Infliggi all'avversario^i tuoi danni da^eccesso.</desc>
+        <path>ziska.png</path>
+        <priority>5</priority>
+    </card>
+    <card name="lara" rare="true" oneshot="false">
+        <type>boost</type>
+        <title>Evil Lara</title>
+        <desc>Moltiplica per 2^il punteggio.</desc>
+        <path>lara.png</path>
+        <priority>2</priority>
+    </card>
+    <card name="matti" rare="true" oneshot="true">
+        <type>boost</type>
+        <title>Zacapa Il Fedele</title>
+        <desc>La staffa:^L'avversario riceve 5^di danno per ogni^carta boost sul^terreno.</desc>
+        <path>matti.png</path>
+        <priority>1</priority>
+    </card>
+    <card name="nina" rare="true" oneshot="false">
+        <type>boost</type>
+        <title>Nina Cappello^di Paglia</title>
+        <desc>Dimezza il punteggio^avversario.</desc>
+        <path>nina.png</path>
+        <priority>2</priority>
+    </card>
+    <card name="kevin" rare="true" oneshot="true">
+        <type>boost</type>
+        <title>Doppio Tiro</title>
+        <desc>Fuma due carte^dell'avversario.^Random.</desc>
+        <path>kevin.png</path>
+        <priority>0</priority>
+    </card>
+    <card name="giovi" rare="true" oneshot="true">
+        <type>boost</type>
+        <title>Brucia Assi</title>
+        <desc>Rimuovi tutti gli assi^dal terreno^dell'avversario.</desc>
+        <path>giovi.png</path>
+        <priority>2</priority>
+    </card>
+    <card name="gek" rare="true" oneshot="true">
+        <type>boost</type>
+        <title>Gek A Mille</title>
+        <desc>Pugno in bagno:^crollano tutte le^carte.</desc>
+        <path>gek.png</path>
+        <priority>0</priority>
+    </card>
+    <card name="nico" rare="true" oneshot="false" active="false">
+        <type>boost</type>
+        <title>La Strozzina</title>
+        <desc>Spartisce gli HP^in maniera equa.^Su attivazione.</desc>
+        <path>nico.png</path>
+        <priority>1</priority>
+    </card>
+</cards>
