@@ -2,10 +2,8 @@ package com.syndria.gfx;
 
 public class Animation {
 
-    private Image spriteSheet;
-    private int frameWidth;
     private Image[] frames;
-    private int nFrames;
+    private final int nFrames;
     private int frame = 0;
     private double[] framesDurations;
     private boolean finished = false;
@@ -13,8 +11,7 @@ public class Animation {
     private double t = 0d;
 
     public Animation (String path, int frameWidth) {
-        spriteSheet = new Image(path);
-        this.frameWidth = frameWidth;
+        Image spriteSheet = new Image(path);
         nFrames = spriteSheet.getW() / frameWidth;
         frames = new Image[nFrames];
         framesDurations = new double[nFrames];
