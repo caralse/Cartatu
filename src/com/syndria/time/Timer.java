@@ -1,7 +1,7 @@
 package com.syndria.time;
 
 public class Timer {
-    private double time;
+    private final double time;
     private double t;
 
     private Runnable end;

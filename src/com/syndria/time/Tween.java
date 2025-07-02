@@ -1,9 +1,9 @@
 package com.syndria.time;
 
 public class Tween {
-    private double startValue;
-    private double endValue;
-    private double duration;
+    private final double startValue;
+    private final double endValue;
+    private final double duration;
     private boolean isComplete;
     private double elapsedTime = 0d;
 

@@ -2,7 +2,6 @@ package com.syndria.core;
 
 import com.syndria.math.Vector;
 
-import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +9,7 @@ import java.util.List;
 
 public class Input implements KeyListener, MouseListener, MouseMotionListener, MouseWheelListener {
 
-    private Window w;
+    private final Window w;
 
     private final int NUM_KEYS = 256;
     private final int[] keyState = new int[NUM_KEYS];
